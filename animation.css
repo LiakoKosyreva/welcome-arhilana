@@ -1,0 +1,23 @@
+.nest-swing img {
+  animation: swing 4s ease-in-out infinite;
+  transform-origin: top;
+}
+@keyframes swing {
+  0%,
+  100% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+}
+.clouds img {
+  animation: move 20s linear infinite;
+  left: -110%;
+  position: absolute;
+}
+@keyframes move {
+  100% {
+    left: 100%;
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+  </head>
+  <body>
+    <div class="first-block">
+      <p>АРХИ<br />ЛАНА</p>
+      <div class="tree-container">
+        <img src="images/tree.webp" alt="дерево" />
+      </div>
+      <div class="nest-pictures-container">
+        <div class="nest-picture">
+          <img src="images/nest_picture1.webp" alt="гнездо1" />
+        </div>
+        <div class="nest-picture">
+          <img src="images/nest_picture2.webp" alt="гнездо2" />
+        </div>
+        <div class="nest-picture">
+          <img src="images/nest_picture3.webp" alt="гнездо3" />
+        </div>
+        <div class="nest-picture">
+          <img src="images/nest_picture4.webp" alt="гнездо4" />
+        </div>
+        <div class="nest-picture">
+          <img src="images/nest_picture5.webp" alt="гнездо5" />
+        </div>
+      </div>
+      <div class="help" data-modal="modal-1">
+        <img src="images/help_button.webp" alt="подсказка" />
+      </div>
+    </div>
+    <div class="second-block">
+      <div class="first-twig">
+        <div class="bird-1 bird" data-modal="modal-3">
+          <img src="images/bird1.webp" alt="птица-ткач" />
+        </div>
+        <div class="twig-1">
+          <img src="images/twig_1.webp" alt="ветка-1" />
+        </div>
+        <div class="nest-pear nest-swing">
+          <img src="images/nest_pear.webp" alt="гнездо-груша" />
+        </div>
+        <div class="nest-pyramide nest-swing">
+          <img src="images/nest_pyramid.webp" alt="гнездо-пирамида" />
+        </div>
+      </div>
+      <div class="second-twig">
+        <div class="bird-2 bird" data-modal="modal-4">
+          <img src="images/bird2.webp" alt="птица-печник" />
+        </div>
+        <div class="twig-2">
+          <img src="images/twig_2.webp" alt="ветка-2" />
+        </div>
+        <div class="nest-orange nest-swing">
+          <img src="images/nest_orange.webp" alt="гнездо-оранжевое" />
+        </div>
+        <div class="nest-blue nest-swing">
+          <img src="images/nest_blue.webp" alt="гнездо-голубое" />
+        </div>
+        <div class="nest-white nest-swing">
+          <img src="images/nest_white.webp" alt="гнездо-белое" />
+        </div>
+      </div>
+      <div class="help" data-modal="modal-2">
+        <img src="images/help_button.webp" alt="подсказка" />
+      </div>
+    </div>
+    <div class="third-block">
+      <div class="clouds">
+        <img src="images/cloud.webp" alt="облака" />
+      </div>
+      <p class="name">Косырева Лиако</p>
+      <p class="group">БП24Д309А</p>
+      <div class="help" data-modal="modal-5">
+        <img src="images/help_button.webp" alt="подсказка" />
+      </div>
+    </div>
+
+    <!-- Модальные окна -->
+
+    <div class="modal" id="modal-1">
+      <div
+        class="modal-content"
+        style="background-image: url(images/tree-message.webp)"
+      >
+        <p>Дерево совсем пустое<br />Надо перетащить гнезда</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-2">
+      <div
+        class="modal-content"
+        style="background-image: url(images/second-block-message.webp)"
+      >
+        <p>Вот это гнезда!<br />Надо познакомиться с авторами</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-3">
+      <div
+        class="modal-content"
+        style="background-image: url(images/bird-1-message.webp)"
+      >
+        <p>Наш мастер плетения<br />Птица-ткач</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-4">
+      <div
+        class="modal-content"
+        style="background-image: url(images/bird-2-message.webp)"
+      >
+        <p>
+          Вашему вниманию,<br />архитектор глинянных гнезд <br />Птица-печник
+        </p>
+      </div>
+    </div>
+    <div class="modal" id="modal-5">
+      <div
+        class="modal-content"
+        style="background-image: url(images/third-block-message.webp)"
+      >
+        <p>
+          Мне всегда казалось,<br />что аисты приносят только детей<br />а не
+          гнезда
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

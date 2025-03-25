@@ -1,0 +1,218 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  width: 100vw;
+  background-color: black;
+  cursor: url(images/cursor-passive.webp) 0 0, auto;
+  overflow-x: hidden;
+}
+.first-block {
+  background-image: url(images/backround_1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vw;
+}
+.first-block .help {
+  position: absolute;
+  top: 52vw;
+  left: 87vw;
+}
+.first-block p {
+  font-size: 12vw;
+  color: #f7f0de;
+  padding-inline-start: 5vw;
+  padding-block-start: 4vw;
+}
+.tree-container {
+  width: 63vw;
+  position: absolute;
+  top: 4vw;
+  left: 18vw;
+  /* margin: 0 auto;
+  margin-block-end: 20vw; */
+}
+.tree-container img {
+  width: 100%;
+  height: auto;
+}
+.nest-pictures-container {
+  display: flex;
+  gap: 8vw;
+  position: absolute;
+  left: 14vw;
+  top: 57vw;
+  z-index: 1;
+  width: 76vw;
+}
+.nest-picture img {
+  width: 100%;
+  height: auto;
+  cursor: url(images/cursor-active.webp) 0 0, auto;
+}
+.second-block {
+  position: relative;
+  height: 110vw;
+}
+.second-block .help {
+  position: absolute;
+  left: 87vw;
+  top: 1vw;
+}
+.second-block img {
+  width: 100%;
+  height: auto;
+}
+.first-twig {
+  position: relative;
+  left: 0;
+  top: 7vw;
+  width: 90vw;
+  height: 55vw;
+}
+.twig-1 {
+  width: 90vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bird-1 {
+  width: 11vw;
+  position: absolute;
+  top: 1vw;
+  left: 27vw;
+  z-index: 1;
+  cursor: url(images/cursor-active.webp) 0 0, auto;
+}
+.nest-pear {
+  width: 23vw;
+  position: absolute;
+  left: 14vw;
+  top: 22vw;
+}
+.nest-pyramide {
+  width: 17vw;
+  position: absolute;
+  left: 40vw;
+  top: 19vw;
+}
+.second-twig {
+  position: absolute;
+  right: 0;
+  top: 64vw;
+  width: 90vw;
+  height: 55vw;
+}
+.twig-2 {
+  width: 90vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.bird-2 {
+  width: 18vw;
+  position: absolute;
+  top: 0;
+  right: 17vw;
+  z-index: 2;
+  cursor: url(images/cursor-active.webp) 0 0, auto;
+}
+.nest-white {
+  width: 25vw;
+  position: absolute;
+  top: 13vw;
+  right: 51vw;
+}
+.nest-orange {
+  width: 35vw;
+  position: absolute;
+  top: 12vw;
+  right: 28vw;
+}
+.nest-blue {
+  width: 16vw;
+  position: absolute;
+  top: 10vw;
+  right: 16vw;
+}
+.nest-swing {
+  cursor: url(images/cursor-active.webp) 0 0, auto;
+}
+.third-block {
+  background-image: url(images/backround_2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vw;
+  position: relative;
+}
+.clouds {
+  width: 100%;
+  position: absolute;
+  height: 42vw;
+  bottom: 47vw;
+  overflow-x: hidden;
+}
+.clouds img {
+  width: 100%;
+}
+.third-block .help {
+  position: absolute;
+  right: 7vw;
+  bottom: 22vw;
+}
+.third-block p {
+  font-size: 8vw;
+  color: #f7f0de;
+}
+.name {
+  position: absolute;
+  left: 7vw;
+  bottom: 20vw;
+}
+.group {
+  position: absolute;
+  right: 7vw;
+  bottom: 6vw;
+}
+.help {
+  width: 5vw;
+  cursor: url(images/cursor-active.webp) 0 0, auto;
+}
+.help img {
+  width: 100%;
+  height: auto;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  width: 42vw;
+  height: 28vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  color: #f7f0de;
+}
+.modal-content p {
+  text-align: center;
+}
