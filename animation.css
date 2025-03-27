@@ -21,3 +21,11 @@
     left: 100%;
   }
 }
+.stork-img {
+  animation: play 0.8s steps(7, start) infinite;
+}
+@keyframes play {
+  100% {
+    background-position: 2240px;
+  }
+}
