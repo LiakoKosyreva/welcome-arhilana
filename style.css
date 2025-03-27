@@ -57,6 +57,15 @@ body {
   height: auto;
   cursor: url(images/cursor-active.webp) 0 0, auto;
 }
+.nest-picture.dragging {
+  opacity: 0.8;
+  transition: none;
+}
+.nest-picture {
+  position: relative;
+  user-select: none;
+  touch-action: none;
+}
 .second-block {
   position: relative;
   height: 110vw;
@@ -162,6 +171,19 @@ body {
 }
 .clouds img {
   width: 100%;
+}
+.stork-container {
+  position: absolute;
+  bottom: 35vw;
+  display: flex;
+  align-items: center;
+}
+.stork-img {
+  /* height: 14vw;
+  width: 16vw; */
+  height: 19.44vw;
+  width: 22.22vw;
+  background: url(images/stork.webp) 0px 0px;
 }
 .third-block .help {
   position: absolute;
