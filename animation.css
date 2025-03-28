@@ -22,10 +22,28 @@
   }
 }
 .stork-img {
-  animation: play 0.8s steps(7, start) infinite;
+  animation: fly 1s steps(7) infinite;
 }
-@keyframes play {
+@keyframes fly {
+  0% {
+    background-position: 0 0;
+  }
   100% {
-    background-position: 2240px;
+    background-position: calc(-7 * var(--stork-width)) 0;
+  }
+}
+
+.stork-container {
+  left: 0;
+  animation: moveAcross 10s linear infinite;
+  transform: translateY(-50%) translateX(-100%);
+}
+
+@keyframes moveAcross {
+  0% {
+    transform: translateY(-50%) translateX(-100%);
+  }
+  100% {
+    transform: translateY(-50%) translateX(100vw);
   }
 }
