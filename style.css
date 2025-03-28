@@ -173,17 +173,20 @@ body {
   width: 100%;
 }
 .stork-container {
+  --stork-width: 21.8vw;
+  --stork-height: 19vw;
+  width: var(--stork-width);
+  height: var(--stork-height);
   position: absolute;
+  overflow: hidden;
   bottom: 35vw;
-  display: flex;
-  align-items: center;
 }
 .stork-img {
-  /* height: 14vw;
-  width: 16vw; */
-  height: 19.44vw;
-  width: 22.22vw;
-  background: url(images/stork.webp) 0px 0px;
+  width: calc(7 * var(--stork-width));
+  height: 100%;
+  background: url(images/stork.webp);
+  background-size: cover;
+  position: absolute;
 }
 .third-block .help {
   position: absolute;
